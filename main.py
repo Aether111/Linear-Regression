@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+'''The compute_error function passes in the current line and the array of datapoints. It then outputs the mean-squared error of the line.'''
 def compute_error(slope,y_int,X):
     v_dist = [] # Vertical Distance
     for coord in X:
